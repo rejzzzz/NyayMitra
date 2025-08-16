@@ -1,0 +1,14 @@
+results/
+q_lora_adapter/
+*.safetensors
+*.pt
+
+# Large datasets and intermediate files
+*.jsonl
+*.jsonl.*
+.ipynb_checkpoints/
+
+# System files
+lost+found/
+.DS_Store
+*.log
