@@ -3,7 +3,8 @@ I have trained the meta-llama/Llama-3.2-3B-Instruct model using QLoRA (Quantized
 This is a fine-tuned llm on India law and legal Dataset, basically a type of personal Legal Advisor.
 
 here is the difference between the base model and the fine-tune model:
-```
+
+````
 Question: What is the difference between murder and culpable homicide?
 
 🟡 Base Model:
@@ -46,7 +47,7 @@ The basic structure doctrine is a constitutional principle in India that outline
 🔸 Question: When can a writ of habeas corpus be filed?
 
 🟡 Base Model:
-A writ of habeas corpus can be filed if a person is being detained or imprisoned without a valid legal warrant or justification. The writ is used to challenge the legality of the detention and to ensure that the person is being held lawfully. In some cases, a person may be eligible for habeas corpus if they are being held in a detention center or prison without a valid legal basis for their detention. However, the specific circumstances and eligibility requirements for filing a writ of habeas corpus vary by jurisdiction and may depend on local laws and regulations. Generally, a writ of habeas corpus can be filed if a person has been detained or imprisoned without a valid legal warrant or justification. 
+A writ of habeas corpus can be filed if a person is being detained or imprisoned without a valid legal warrant or justification. The writ is used to challenge the legality of the detention and to ensure that the person is being held lawfully. In some cases, a person may be eligible for habeas corpus if they are being held in a detention center or prison without a valid legal basis for their detention. However, the specific circumstances and eligibility requirements for filing a writ of habeas corpus vary by jurisdiction and may depend on local laws and regulations. Generally, a writ of habeas corpus can be filed if a person has been detained or imprisoned without a valid legal warrant or justification.
 
 The writ is used to challenge the legality of the detention and to ensure that the person is being held lawfully. In some cases, a person may be eligible for habeas corpus if they are being held in a detention center or prison without a valid legal basis for their detention. However, the specific circumstances and eligibility
 
@@ -63,9 +64,9 @@ The primary purpose of a habeas corpus petition is to secure the release of a pe
 🔸 Question: What are the rights of an accused under Article 22?
 
 🟡 Base Model:
-Under Article 22, an accused has the right to remain silent. However, he has the right to be produced before a Magistrate or to be granted bail. He is also entitled to a fair trial and to be informed of the grounds on which the sentence is passed. The right to remain silent may be waived in the interests of justice. 
+Under Article 22, an accused has the right to remain silent. However, he has the right to be produced before a Magistrate or to be granted bail. He is also entitled to a fair trial and to be informed of the grounds on which the sentence is passed. The right to remain silent may be waived in the interests of justice.
 
-In this case, the accused did not choose to exercise his right to remain silent. Therefore, he was required to answer the questions asked. However, he was also granted bail, which is an entitlement under Article 22. He was not informed of the grounds on which the sentence was passed. Hence, he was denied the right to be informed of the grounds on which the sentence is passed. 
+In this case, the accused did not choose to exercise his right to remain silent. Therefore, he was required to answer the questions asked. However, he was also granted bail, which is an entitlement under Article 22. He was not informed of the grounds on which the sentence was passed. Hence, he was denied the right to be informed of the grounds on which the sentence is passed.
 
 The accused is entitled to a fair trial, which includes the right to be heard by the accused. The accused is entitled to be informed of the grounds on which the sentence is passed. The accused is entitled to be produced before a Magistrate or to
 
@@ -118,4 +119,15 @@ What is anticipatory bail under Section 438 of CrPC?
 Anticipatory bail under Section 438 of CrPC is a provision that allows a person to apply for bail before arrest, if the police has reason to believe that the person may
 
 ================================================================================
-```
+````
+
+### Dataset Sources and Credits
+
+1. **Indian Law Dataset**
+
+    - **Link:** [https://huggingface.co/datasets/viber1/indian-law-dataset](https://huggingface.co/datasets/viber1/indian-law-dataset)
+    - **Author:** Adarsh Mishra
+
+2. **LLM Fine-Tuning Dataset of Indian Legal Texts**
+    - **Link:** [https://www.kaggle.com/datasets/akshatgupta7/llm-fine-tuning-dataset-of-indian-legal-texts](https://www.kaggle.com/datasets/akshatgupta7/llm-fine-tuning-dataset-of-indian-legal-texts)
+    - **Author:** Akshat Gupta
