@@ -1,3 +1,5 @@
+Hugging Face link - https://huggingface.co/rej06/llama-3.2-fine-tuned-indianlaw-qlora-rej
+
 I have trained the meta-llama/Llama-3.2-3B-Instruct model using QLoRA (Quantized Low-Rank adaptation) and PEFT (parameter-efficient fine-tuning) to do, it was done on Amazon SageMaker AI on a ml.g5.xlarge GPU with 24 GB RAM and 100 Gb ESB Volume.
 
 This is a fine-tuned llm on India law and legal Dataset, basically a type of personal Legal Advisor.
